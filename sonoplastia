@@ -1,0 +1,369 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Production>
+<Version>2.5.3.0</Version>
+<FileName>C:\Users\IFSC\Music\MulheresNaCiencia.XML</FileName>
+<LastModified>2023-11-25 1:12:13 pm</LastModified>
+<General>
+<AutoStart>0</AutoStart>
+</General>
+<Appearance>
+<CueList Name="Arial" Size="10" Colour="clWhite" BgColour="clBlack" CueSelectedBgColour="clPurple" CueSelectedFontColour="clWhite" CueColourStyle="0" CueListScrollBars="-1" FontColourAudio="clWhite" FontColourControl="clWhite" FontColourEnd="clWhite" FontColourMemo="clWhite" FontColourMidi="clWhite" FontColourMidiMute="clWhite" FontColourMidiSeq="clWhite" FontColourMSC="clWhite" FontColourPlayList="clWhite" FontColourSerial="clWhite" FontColourTelnet="clWhite" FontColourVideo="clWhite" FontColourWait="clWhite" FontColourLaunch="clWhite" BgColourAudio="clBlack" BgColourControl="clBlack" BgColourEnd="clBlack" BgColourMemo="clBlack" BgColourMidi="clBlack" BgColourMidiMute="clBlack" BgColourMidiSeq="clBlack" BgColourMSC="clBlack" BgColourPlayList="clBlack" BgColourSerial="clBlack" BgColourTelnet="clBlack" BgColourVideo="clBlack" BgColourWait="clBlack" BgColourLaunch="clBlack"/>
+<ProgressBar ColourPlaying="clGreen" ColourPaused="clBlue" ColourWarning="clRed" ColourLooping="clGreen" MaxWhenLooping="-1" ProgressFullHeight="-1"/>
+<NotesHeader Name="Arial" Size="12" BgColour="clBlack" Colour="clRed"/>
+<NotesBody Name="Arial" Size="10" Colour="clBlack" BgColour="clCream"/>
+<Buttons StopwatchFontColour="clWhite" StopwatchBgColour="clBlack" ClockFontColour="clWhite" ClockBgColour="clBlack" StopAllFontColour="clYellow" StopAllBgColour="clBlack" FadeAllFontColour="clAqua" FadeAllBgColour="clBlack" AdvanceFontColour="$000080FF" AdvanceBgColour="clBlack"/>
+<HideFractionalSeconds>0</HideFractionalSeconds>
+</Appearance>
+<Audio PreviewDevice="1">
+<Patch Name="Output 1" Device="1"/>
+<Patch Name="Output 2" Device="1"/>
+<Patch Name="Output 3" Device="1"/>
+<Patch Name="Output 4" Device="1"/>
+</Audio>
+<MIDI>
+<Muting Output="0" Channel="0"/>
+</MIDI>
+<Telnet>
+<Listen Port="0" Active="0"/>
+</Telnet>
+<Triggers>
+<Action Name="actGo" Key="32" Shift="" Direction="0"/>
+<Action Name="actPauseAll" Key="0" Shift="" Direction="0"/>
+<Action Name="actResumeAll" Key="0" Shift="" Direction="0"/>
+<Action Name="actStopAll" Key="27" Shift="" Direction="0"/>
+<Action Name="actFadeAllOut" Key="0" Shift="" Direction="0"/>
+<Action Name="actAdvance" Key="0" Shift="" Direction="0"/>
+<Action Name="actCuePause" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueResume" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueStop" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueFadeOut" Key="0" Shift="" Direction="0"/>
+<Action Name="ActStopVolumeFade" Key="0" Shift="" Direction="0"/>
+<Action Name="ActStopPanFade" Key="0" Shift="" Direction="0"/>
+<Action Name="ActStopPitchFade" Key="0" Shift="" Direction="0"/>
+<Action Name="actCuePreview" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueRestart" Key="0" Shift="" Direction="0"/>
+<Action Name="actCuePrevTrack" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueNextTrack" Key="0" Shift="" Direction="0"/>
+<Action Name="actCueJump" Key="74" Shift="Ctrl+" Direction="0"/>
+<Action Name="actStopwatchStart" Key="0" Shift="" Direction="0"/>
+<Action Name="actStopwatchStop" Key="0" Shift="" Direction="0"/>
+<Action Name="actStopwatchReset" Key="0" Shift="" Direction="0"/>
+</Triggers>
+<HotButtons ColumnCount="1" RowCount="1" FontSize="12" FontName="Arial" UseCueDescriptions="0">
+<Button Caption="1" CaptionColour="clBlack" BtnColour="clCream" CueUID=""/>
+</HotButtons>
+<Layouts DefaultLayout="0">
+<Layout ColumnStates="15#50,30,37,61,107,234,68,50,40,50,50,50,45,82,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
+<Window Name="Main" Top="46" Left="117" Width="884" Height="524" Maximised="-1"/>
+<Notes UpperPaneSize="108" LowerPaneSize="108"/>
+<sitelist>
+<site id="fmMain.DockSite">
+<zone kind="HORZ">
+<zone kind="VERT" size="32" dsize="0.0607210626185958">
+<zone kind="PANEL" id="fmMain.DkElapsedTime" visible="0" floatwidth="32" floatheight="154" size="315" dsize="1"/>
+<zone kind="PANEL" id="fmMain.dkRemainingTime" visible="0" floatwidth="49" floatheight="315" size="315" dsize="1"/>
+</zone>
+<zone kind="VERT" size="231" dsize="0.181034482758621">
+<zone kind="PANEL" id="fmMain.dkCueControls" visible="1" floatwidth="157" floatheight="315" size="64" dsize="0.106135986733002"/>
+<zone kind="PANEL" id="fmMain.DkClock" visible="0" floatwidth="180" floatheight="38" size="32" dsize="0.127402738446144"/>
+<zone kind="PANEL" id="fmMain.DkGo" visible="1" floatwidth="180" floatheight="41" size="539" dsize="0.893864013266998"/>
+<zone kind="PANEL" id="fmMain.DkExtTools" visible="0" floatwidth="180" floatheight="35" size="55" dsize="0.201264741978716"/>
+<zone kind="PANEL" id="fmMain.DkStopAll" visible="0" floatwidth="180" floatheight="32" size="32" dsize="0.0263161343166393"/>
+<zone kind="PANEL" id="fmMain.DkFadeAll" visible="0" floatwidth="180" floatheight="32" size="175" dsize="0.569394127934511"/>
+<zone kind="PANEL" id="fmMain.DkAdvance" visible="0" floatwidth="180" floatheight="32" size="141" dsize="0.452759289887748"/>
+<zone kind="PANEL" id="fmMain.DkStopwatch" visible="0" floatwidth="180" floatheight="32" size="315" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.DkCueList" visible="1" floatwidth="32" floatheight="317" size="1045" dsize="0.818965517241379" isspace="1"/>
+<zone kind="VERT" size="334" dsize="0.642307692307692">
+<zone kind="HORZ" size="315" dsize="1">
+<zone kind="VERT" size="334" dsize="1">
+<zone kind="PANEL" id="fmMain.dkAdlibList" visible="0" floatwidth="334" floatheight="157" size="157" dsize="0.504823151125402"/>
+<zone kind="PANEL" id="fmMain.DkHotButtons" visible="0" floatwidth="110" floatheight="185" size="315" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.DkNotes" visible="0" floatwidth="308" floatheight="317" size="334" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.DkPreviewer" visible="0" floatwidth="110" floatheight="128" size="334" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.dkVideoPreview" visible="0" floatwidth="32" floatheight="315" size="32" dsize="0.0611854684512428"/>
+</zone>
+</site>
+</sitelist>
+</Layout>
+</Layouts>
+<CueList Name="Main">
+<Cue>
+<UID>4</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Cruising in the Balmy Breeze - Genshin Impact_ Fountain of Belleau (OST)</Description>
+<Trigger Key="77" Shift="" Direction="0"/>
+<ScriptRef>MARIE</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Cruising in the Balmy Breeze - Genshin Impact_ Fountain of Belleau (OST).mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>105566</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>9</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps)</Description>
+<Trigger Key="68" Shift="" Direction="0"/>
+<ScriptRef>DANÇA</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps).mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>135002</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>1</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Cobalt Remembrance</Description>
+<Trigger Key="78" Shift="" Direction="0"/>
+<ScriptRef>MARIE FINAL</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Cobalt Remembrance.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>90361</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>10</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Jethro Tull - Bourée</Description>
+<Trigger Key="82" Shift="" Direction="0"/>
+<ScriptRef>ROSALIND</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Jethro Tull - Bourée.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>232369</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>6</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Al Bowlly & the Savoy Hotel Orpheans Who Am I _</Description>
+<Trigger Key="70" Shift="" Direction="0"/>
+<ScriptRef>FOOTE</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Al Bowlly & the Savoy Hotel Orpheans Who Am I _.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>30124</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>10</FadeOutTime>
+</Cue>
+<Cue>
+<UID>7</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Doorbell (Ding Dong) - Sound Effect for Editing</Description>
+<Trigger Key="67" Shift="" Direction="0"/>
+<ScriptRef>CAMPAINHA</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Doorbell (Ding Dong) - Sound Effect for Editing.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>2</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>8454</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>3</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Os Originais do Samba - Falador Passa Mal</Description>
+<Trigger Key="74" Shift="" Direction="0"/>
+<ScriptRef>JAQ GOES</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Os Originais do Samba - Falador Passa Mal.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>6</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>9005</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>11</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Samba Que Elas Querem - Levanta, Povo!</Description>
+<Trigger Key="50" Shift="" Direction="0"/>
+<ScriptRef>JAQ 2</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - Levanta, Povo!.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>245473</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>12</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Samba Que Elas Querem - _Samba Pras Moças_ (trecho)</Description>
+<Trigger Key="51" Shift="" Direction="0"/>
+<ScriptRef>JAQ 3</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - _Samba Pras Moças_ (trecho).mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>56325</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>13</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Samba Que Elas Querem - Partido Inconsciente</Description>
+<Trigger Key="52" Shift="" Direction="0"/>
+<ScriptRef>JAQ 4</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - Partido Inconsciente.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>195009</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>14</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Samba Que Elas Querem SQEQ na Quarentena - As Forças da Natureza</Description>
+<Trigger Key="53" Shift="" Direction="0"/>
+<ScriptRef>JAQ 5</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem SQEQ na Quarentena - As Forças da Natureza.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>135894</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>5</UID>
+<Type>0</Type>
+<Enabled>-1</Enabled>
+<Description>Samba Que Elas Querem - _Nos Somos Mulheres_</Description>
+<Trigger Key="90" Shift="" Direction="0"/>
+<ScriptRef>JAQ FINAL</ScriptRef>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - _Nos Somos Mulheres_.mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>222412</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+<Cue>
+<UID>2</UID>
+<Type>0</Type>
+<Enabled>0</Enabled>
+<Description>Sneaky Snitch (Kevin MacLeod) - Background Music (HD)</Description>
+<Trigger Key="0" Shift="" Direction="0"/>
+<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
+<Advance Action="1" Target="0"/>
+<FileName>C:\Users\IFSC\Music\Sneaky Snitch (Kevin MacLeod) - Background Music (HD).mp3</FileName>
+<AudioChannel>1</AudioChannel>
+<Loops>1</Loops>
+<Volume-dB>0</Volume-dB>
+<Pan>0</Pan>
+<Pitch>100</Pitch>
+<StartPos>0</StartPos>
+<EndPos>136626</EndPos>
+<FadeAtEnd>0</FadeAtEnd>
+<FadeInTime>0</FadeInTime>
+<FadeOutTime>0</FadeOutTime>
+</Cue>
+</CueList>
+<AdlibList/>
+</Production>
+...
