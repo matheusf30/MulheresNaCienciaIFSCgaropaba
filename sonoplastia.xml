@@ -1,8 +1,7 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <Production>
 <Version>2.5.3.0</Version>
 <FileName>C:\Users\IFSC\Music\MulheresNaCiencia.XML</FileName>
-<LastModified>2023-11-25 1:12:13 pm</LastModified>
+<LastModified>2023-12-04 9:04:25 pm</LastModified>
 <General>
 <AutoStart>0</AutoStart>
 </General>
@@ -53,8 +52,8 @@ This XML file does not appear to have any style information associated with it. 
 <Button Caption="1" CaptionColour="clBlack" BtnColour="clCream" CueUID=""/>
 </HotButtons>
 <Layouts DefaultLayout="0">
-<Layout ColumnStates="15#50,30,37,61,107,234,68,50,40,50,50,50,45,82,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
-<Window Name="Main" Top="46" Left="117" Width="884" Height="524" Maximised="-1"/>
+<Layout ColumnStates="15#50,30,37,61,107,397,68,50,40,50,50,50,45,82,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
+<Window Name="Main" Top="12" Left="678" Width="590" Height="655" Maximised="-1"/>
 <Notes UpperPaneSize="108" LowerPaneSize="108"/>
 <sitelist>
 <site id="fmMain.DockSite">
@@ -74,17 +73,6 @@ This XML file does not appear to have any style information associated with it. 
 <zone kind="PANEL" id="fmMain.DkStopwatch" visible="0" floatwidth="180" floatheight="32" size="315" dsize="1"/>
 </zone>
 <zone kind="PANEL" id="fmMain.DkCueList" visible="1" floatwidth="32" floatheight="317" size="1045" dsize="0.818965517241379" isspace="1"/>
-<zone kind="VERT" size="334" dsize="0.642307692307692">
-<zone kind="HORZ" size="315" dsize="1">
-<zone kind="VERT" size="334" dsize="1">
-<zone kind="PANEL" id="fmMain.dkAdlibList" visible="0" floatwidth="334" floatheight="157" size="157" dsize="0.504823151125402"/>
-<zone kind="PANEL" id="fmMain.DkHotButtons" visible="0" floatwidth="110" floatheight="185" size="315" dsize="1"/>
-</zone>
-<zone kind="PANEL" id="fmMain.DkNotes" visible="0" floatwidth="308" floatheight="317" size="334" dsize="1"/>
-</zone>
-<zone kind="PANEL" id="fmMain.DkPreviewer" visible="0" floatwidth="110" floatheight="128" size="334" dsize="1"/>
-</zone>
-<zone kind="PANEL" id="fmMain.dkVideoPreview" visible="0" floatwidth="32" floatheight="315" size="32" dsize="0.0611854684512428"/>
 </zone>
 </site>
 </sitelist>
@@ -92,32 +80,32 @@ This XML file does not appear to have any style information associated with it. 
 </Layouts>
 <CueList Name="Main">
 <Cue>
-<UID>4</UID>
+<UID>9</UID>
 <Type>0</Type>
 <Enabled>-1</Enabled>
-<Description>Cruising in the Balmy Breeze - Genshin Impact_ Fountain of Belleau (OST)</Description>
-<Trigger Key="77" Shift="" Direction="0"/>
-<ScriptRef>MARIE</ScriptRef>
+<Description>SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps)</Description>
+<Trigger Key="50" Shift="" Direction="0"/>
+<ScriptRef>ENTRE CENA</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Cruising in the Balmy Breeze - Genshin Impact_ Fountain of Belleau (OST).mp3</FileName>
+<FileName>C:\Users\IFSC\Music\SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps).mp3</FileName>
 <AudioChannel>1</AudioChannel>
 <Loops>1</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
-<StartPos>0</StartPos>
-<EndPos>105566</EndPos>
+<StartPos>60000</StartPos>
+<EndPos>135002</EndPos>
 <FadeAtEnd>0</FadeAtEnd>
 <FadeInTime>0</FadeInTime>
 <FadeOutTime>0</FadeOutTime>
 </Cue>
 <Cue>
-<UID>9</UID>
+<UID>8</UID>
 <Type>0</Type>
 <Enabled>-1</Enabled>
 <Description>SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps)</Description>
-<Trigger Key="68" Shift="" Direction="0"/>
+<Trigger Key="51" Shift="" Direction="0"/>
 <ScriptRef>DANÇA</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
@@ -134,22 +122,22 @@ This XML file does not appear to have any style information associated with it. 
 <FadeOutTime>0</FadeOutTime>
 </Cue>
 <Cue>
-<UID>1</UID>
+<UID>6</UID>
 <Type>0</Type>
 <Enabled>-1</Enabled>
-<Description>Cobalt Remembrance</Description>
-<Trigger Key="78" Shift="" Direction="0"/>
-<ScriptRef>MARIE FINAL</ScriptRef>
+<Description>Al Bowlly & the Savoy Hotel Orpheans Who Am I _</Description>
+<Trigger Key="52" Shift="" Direction="0"/>
+<ScriptRef>FOOTE</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Cobalt Remembrance.mp3</FileName>
+<FileName>C:\Users\IFSC\Music\Al Bowlly & the Savoy Hotel Orpheans Who Am I _.mp3</FileName>
 <AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
+<Loops>4</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
 <StartPos>0</StartPos>
-<EndPos>90361</EndPos>
+<EndPos>30124</EndPos>
 <FadeAtEnd>0</FadeAtEnd>
 <FadeInTime>0</FadeInTime>
 <FadeOutTime>0</FadeOutTime>
@@ -159,13 +147,13 @@ This XML file does not appear to have any style information associated with it. 
 <Type>0</Type>
 <Enabled>-1</Enabled>
 <Description>Jethro Tull - Bourée</Description>
-<Trigger Key="82" Shift="" Direction="0"/>
+<Trigger Key="53" Shift="" Direction="0"/>
 <ScriptRef>ROSALIND</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
 <FileName>C:\Users\IFSC\Music\Jethro Tull - Bourée.mp3</FileName>
 <AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
+<Loops>3</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
@@ -176,32 +164,11 @@ This XML file does not appear to have any style information associated with it. 
 <FadeOutTime>0</FadeOutTime>
 </Cue>
 <Cue>
-<UID>6</UID>
-<Type>0</Type>
-<Enabled>-1</Enabled>
-<Description>Al Bowlly & the Savoy Hotel Orpheans Who Am I _</Description>
-<Trigger Key="70" Shift="" Direction="0"/>
-<ScriptRef>FOOTE</ScriptRef>
-<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
-<Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Al Bowlly & the Savoy Hotel Orpheans Who Am I _.mp3</FileName>
-<AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
-<Volume-dB>0</Volume-dB>
-<Pan>0</Pan>
-<Pitch>100</Pitch>
-<StartPos>0</StartPos>
-<EndPos>30124</EndPos>
-<FadeAtEnd>0</FadeAtEnd>
-<FadeInTime>0</FadeInTime>
-<FadeOutTime>10</FadeOutTime>
-</Cue>
-<Cue>
 <UID>7</UID>
 <Type>0</Type>
 <Enabled>-1</Enabled>
 <Description>Doorbell (Ding Dong) - Sound Effect for Editing</Description>
-<Trigger Key="67" Shift="" Direction="0"/>
+<Trigger Key="54" Shift="" Direction="0"/>
 <ScriptRef>CAMPAINHA</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
@@ -222,18 +189,18 @@ This XML file does not appear to have any style information associated with it. 
 <Type>0</Type>
 <Enabled>-1</Enabled>
 <Description>Os Originais do Samba - Falador Passa Mal</Description>
-<Trigger Key="74" Shift="" Direction="0"/>
+<Trigger Key="55" Shift="" Direction="0"/>
 <ScriptRef>JAQ GOES</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
 <FileName>C:\Users\IFSC\Music\Os Originais do Samba - Falador Passa Mal.mp3</FileName>
 <AudioChannel>1</AudioChannel>
-<Loops>6</Loops>
+<Loops>30</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
 <StartPos>0</StartPos>
-<EndPos>9005</EndPos>
+<EndPos>189553</EndPos>
 <FadeAtEnd>0</FadeAtEnd>
 <FadeInTime>0</FadeInTime>
 <FadeOutTime>0</FadeOutTime>
@@ -242,82 +209,19 @@ This XML file does not appear to have any style information associated with it. 
 <UID>11</UID>
 <Type>0</Type>
 <Enabled>-1</Enabled>
-<Description>Samba Que Elas Querem - Levanta, Povo!</Description>
-<Trigger Key="50" Shift="" Direction="0"/>
-<ScriptRef>JAQ 2</ScriptRef>
+<Description>jaquiline</Description>
+<Trigger Key="56" Shift="" Direction="0"/>
+<ScriptRef>COVID</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - Levanta, Povo!.mp3</FileName>
+<FileName>C:\Users\IFSC\Music\jaquiline.mp3</FileName>
 <AudioChannel>1</AudioChannel>
 <Loops>1</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
 <StartPos>0</StartPos>
-<EndPos>245473</EndPos>
-<FadeAtEnd>0</FadeAtEnd>
-<FadeInTime>0</FadeInTime>
-<FadeOutTime>0</FadeOutTime>
-</Cue>
-<Cue>
-<UID>12</UID>
-<Type>0</Type>
-<Enabled>-1</Enabled>
-<Description>Samba Que Elas Querem - _Samba Pras Moças_ (trecho)</Description>
-<Trigger Key="51" Shift="" Direction="0"/>
-<ScriptRef>JAQ 3</ScriptRef>
-<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
-<Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - _Samba Pras Moças_ (trecho).mp3</FileName>
-<AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
-<Volume-dB>0</Volume-dB>
-<Pan>0</Pan>
-<Pitch>100</Pitch>
-<StartPos>0</StartPos>
-<EndPos>56325</EndPos>
-<FadeAtEnd>0</FadeAtEnd>
-<FadeInTime>0</FadeInTime>
-<FadeOutTime>0</FadeOutTime>
-</Cue>
-<Cue>
-<UID>13</UID>
-<Type>0</Type>
-<Enabled>-1</Enabled>
-<Description>Samba Que Elas Querem - Partido Inconsciente</Description>
-<Trigger Key="52" Shift="" Direction="0"/>
-<ScriptRef>JAQ 4</ScriptRef>
-<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
-<Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - Partido Inconsciente.mp3</FileName>
-<AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
-<Volume-dB>0</Volume-dB>
-<Pan>0</Pan>
-<Pitch>100</Pitch>
-<StartPos>0</StartPos>
-<EndPos>195009</EndPos>
-<FadeAtEnd>0</FadeAtEnd>
-<FadeInTime>0</FadeInTime>
-<FadeOutTime>0</FadeOutTime>
-</Cue>
-<Cue>
-<UID>14</UID>
-<Type>0</Type>
-<Enabled>-1</Enabled>
-<Description>Samba Que Elas Querem SQEQ na Quarentena - As Forças da Natureza</Description>
-<Trigger Key="53" Shift="" Direction="0"/>
-<ScriptRef>JAQ 5</ScriptRef>
-<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
-<Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\Samba Que Elas Querem SQEQ na Quarentena - As Forças da Natureza.mp3</FileName>
-<AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
-<Volume-dB>0</Volume-dB>
-<Pan>0</Pan>
-<Pitch>100</Pitch>
-<StartPos>0</StartPos>
-<EndPos>135894</EndPos>
+<EndPos>240055</EndPos>
 <FadeAtEnd>0</FadeAtEnd>
 <FadeInTime>0</FadeInTime>
 <FadeOutTime>0</FadeOutTime>
@@ -327,13 +231,13 @@ This XML file does not appear to have any style information associated with it. 
 <Type>0</Type>
 <Enabled>-1</Enabled>
 <Description>Samba Que Elas Querem - _Nos Somos Mulheres_</Description>
-<Trigger Key="90" Shift="" Direction="0"/>
+<Trigger Key="57" Shift="" Direction="0"/>
 <ScriptRef>JAQ FINAL</ScriptRef>
 <Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
 <Advance Action="1" Target="0"/>
 <FileName>C:\Users\IFSC\Music\Samba Que Elas Querem - _Nos Somos Mulheres_.mp3</FileName>
 <AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
+<Loops>10</Loops>
 <Volume-dB>0</Volume-dB>
 <Pan>0</Pan>
 <Pitch>100</Pitch>
@@ -366,4 +270,3 @@ This XML file does not appear to have any style information associated with it. 
 </CueList>
 <AdlibList/>
 </Production>
-...
