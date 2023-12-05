@@ -52,7 +52,6 @@
 <Button Caption="1" CaptionColour="clBlack" BtnColour="clCream" CueUID=""/>
 </HotButtons>
 <Layouts DefaultLayout="0">
-<Layout ColumnStates="15#50,30,37,61,107,397,68,50,40,50,50,50,45,82,64#0,1,2,3,4,5,6,7,8,9,10,11,12,13,14#1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" DirectEdit="0" LimitedUser="0" Name="Default Layout">
 <Window Name="Main" Top="12" Left="678" Width="590" Height="655" Maximised="-1"/>
 <Notes UpperPaneSize="108" LowerPaneSize="108"/>
 <sitelist>
@@ -73,6 +72,17 @@
 <zone kind="PANEL" id="fmMain.DkStopwatch" visible="0" floatwidth="180" floatheight="32" size="315" dsize="1"/>
 </zone>
 <zone kind="PANEL" id="fmMain.DkCueList" visible="1" floatwidth="32" floatheight="317" size="1045" dsize="0.818965517241379" isspace="1"/>
+<zone kind="VERT" size="334" dsize="0.642307692307692">
+<zone kind="HORZ" size="315" dsize="1">
+<zone kind="VERT" size="334" dsize="1">
+<zone kind="PANEL" id="fmMain.dkAdlibList" visible="0" floatwidth="334" floatheight="157" size="157" dsize="0.504823151125402"/>
+<zone kind="PANEL" id="fmMain.DkHotButtons" visible="0" floatwidth="110" floatheight="185" size="315" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.DkNotes" visible="0" floatwidth="308" floatheight="317" size="334" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.DkPreviewer" visible="0" floatwidth="110" floatheight="128" size="334" dsize="1"/>
+</zone>
+<zone kind="PANEL" id="fmMain.dkVideoPreview" visible="0" floatwidth="32" floatheight="315" size="32" dsize="0.0611854684512428"/>
 </zone>
 </site>
 </sitelist>
@@ -80,20 +90,6 @@
 </Layouts>
 <CueList Name="Main">
 <Cue>
-<UID>9</UID>
-<Type>0</Type>
-<Enabled>-1</Enabled>
-<Description>SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps)</Description>
-<Trigger Key="50" Shift="" Direction="0"/>
-<ScriptRef>ENTRE CENA</ScriptRef>
-<Appearance CustomRowFontColour="clYellow" CustomRowBgColour="clBlack"/>
-<Advance Action="1" Target="0"/>
-<FileName>C:\Users\IFSC\Music\SnapInsta.io - Beethoven - Sonata No. 13 in E Flat Major, Op. 27 No. 1 - I. Andante - Allegro - Tempo I (128 kbps).mp3</FileName>
-<AudioChannel>1</AudioChannel>
-<Loops>1</Loops>
-<Volume-dB>0</Volume-dB>
-<Pan>0</Pan>
-<Pitch>100</Pitch>
 <StartPos>60000</StartPos>
 <EndPos>135002</EndPos>
 <FadeAtEnd>0</FadeAtEnd>
